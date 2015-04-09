@@ -1,0 +1,23 @@
+{
+  "name": "logger-emitter",
+  "version": "0.5.0",
+  "description": "Minimal api for logging to console and/or eventEmitter.",
+  "main": "logger-emitter.js",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --ui qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jldec/logger-emitter.git"
+  },
+  "keywords": ["logger", "emitter", "console"],
+  "author": "jurgen leschner",
+  "license": "MIT"
+}
