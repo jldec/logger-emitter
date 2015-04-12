@@ -14,7 +14,7 @@ var log = loggerEmitter(opts).log;
 // simply call log() without object. prefix
 // supports util.format() args, returns formatted string
 
-log(s...); 
+log(s...);
 
 // log error with stack trace
 
