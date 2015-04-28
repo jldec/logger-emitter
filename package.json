@@ -1,13 +1,13 @@
 {
   "name": "logger-emitter",
-  "version": "0.5.1",
+  "version": "1.0.0",
   "description": "Minimal api for logging to console and/or eventEmitter.",
   "main": "logger-emitter.js",
   "dependencies": {
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
   },
   "scripts": {
     "test": "mocha --ui qunit"
