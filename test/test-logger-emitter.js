@@ -4,55 +4,31 @@
  *
 **/
 
-suite('test-logger-emitter');
+var test = require('tape')
 
 var loggerEmitter = require('../logger-emitter');
-var should = require('should');
 
-test('logger', function(done) {
-  loggerEmitter().log.should.be.type('function');
-  loggerEmitter().should.be.type('object');
-  loggerEmitter().log.logger.should.be.an.instanceOf(loggerEmitter);
-  loggerEmitter().log.logger.emit.should.be.type('function');
-  loggerEmitter().log.logger.on.should.be.type('function');
+test('logger', function(t) {
+  t.equal(typeof loggerEmitter().log, 'function');
+  t.equal(typeof loggerEmitter(), 'object');
+  t.true(loggerEmitter().log.logger instanceof loggerEmitter);
+  t.equal(typeof loggerEmitter().log.logger.emit, 'function');
+  t.equal(typeof loggerEmitter().log.logger.on, 'function');
 
   var log = loggerEmitter( { noConsole:true, noErrors:false } ).log;
   log.logger.on('log', function(s) {
-    s.should.be.exactly('hello 1 - 2 - 3');
-    done();
+    t.equal(s, 'hello 1 - 2 - 3');
+    t.end();
   });
+
   log('hello %s - %s -',1,2,3);
 });
 
-test('logger error', function(done) {
-
+test('logger error', function(t) {
   var log = loggerEmitter( { noConsole:true, noErrors:false } ).log;
   log.logger.on('error', function(e) {
-    e.message.should.be.exactly('oops');
-    done();
+    t.equal(e.message,'oops');
+    t.end();
   });
   log(new Error('oops'));
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
