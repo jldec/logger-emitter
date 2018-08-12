@@ -1,12 +1,11 @@
 {
   "name": "logger-emitter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Minimal api for logging to console and/or eventEmitter.",
   "main": "logger-emitter.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "^4.2.2"
+    "tape": "^4.9.0"
   },
   "scripts": {
     "test": "tape test/*.js"
@@ -15,7 +14,11 @@
     "type": "git",
     "url": "git://github.com/jldec/logger-emitter.git"
   },
-  "keywords": ["logger", "emitter", "console"],
+  "keywords": [
+    "logger",
+    "emitter",
+    "console"
+  ],
   "author": "jurgen leschner",
   "license": "MIT"
 }

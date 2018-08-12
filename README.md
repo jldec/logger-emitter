@@ -37,4 +37,4 @@ log.logger.on('error', errHandler);
 - if you don't listen for `errors`, eventEmitter will throw on 'error'
 
 #### license
-(c) 2015 Jurgen Leschner, [MIT](http://opensource.org/licenses/MIT) license
+(c) 2015-2018 Jürgen Leschner, [MIT](http://opensource.org/licenses/MIT) license
