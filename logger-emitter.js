@@ -15,6 +15,8 @@
  *
 **/
 
+/*eslint no-console: "off"*/
+
 var events = require('events');
 var util = require('util');
 util.inherits(loggerEmitter, events.EventEmitter);
@@ -27,7 +29,7 @@ function loggerEmitter(opts) {
 
   if (!(this instanceof loggerEmitter)) return new loggerEmitter(opts); // new is optional
   events.EventEmitter.call(this);
-  opts = opts || {}
+  opts = opts || {};
   var logger = this;
 
   logger.noConsole   = opts.noConsole || false;
@@ -59,6 +61,6 @@ function loggerEmitter(opts) {
     return msg;
   }
 
-  function inspect() { return 'logger-emitter' }
+  function inspect() { return 'logger-emitter'; }
 }
 

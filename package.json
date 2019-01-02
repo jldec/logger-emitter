@@ -1,14 +1,16 @@
 {
   "name": "logger-emitter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimal api for logging to console and/or eventEmitter.",
   "main": "logger-emitter.js",
   "dependencies": {},
   "devDependencies": {
-    "tape": "^4.9.0"
+    "eslint": "^5.11.1",
+    "tape": "^4.9.2"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",

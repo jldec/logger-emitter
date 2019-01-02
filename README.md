@@ -1,4 +1,5 @@
 # logger-emitter
+[![Build Status](https://api.travis-ci.org/jldec/logger-emitter.svg?branch=master)](https://travis-ci.org/jldec/logger-emitter)
 
 Minimal api for logging to console and/or eventEmitter
 
@@ -37,4 +38,4 @@ log.logger.on('error', errHandler);
 - if you don't listen for `errors`, eventEmitter will throw on 'error'
 
 #### license
-(c) 2015-2018 Jürgen Leschner, [MIT](http://opensource.org/licenses/MIT) license
+(c) 2015-2019 Jürgen Leschner, [MIT](http://opensource.org/licenses/MIT) license
