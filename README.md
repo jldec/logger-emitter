@@ -1,4 +1,5 @@
 # logger-emitter
+[![Azure Build Status](https://dev.azure.com/jldec/logger-emitter/_apis/build/status/jldec.logger-emitter?branchName=master)](https://dev.azure.com/jldec/logger-emitter/_build/latest?definitionId=1&branchName=master)
 [![Build Status](https://api.travis-ci.org/jldec/logger-emitter.svg?branch=master)](https://travis-ci.org/jldec/logger-emitter)
 
 Minimal api for logging to console and/or eventEmitter
