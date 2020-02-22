@@ -1,19 +1,18 @@
 {
   "name": "logger-emitter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Minimal api for logging to console and/or eventEmitter.",
   "main": "logger-emitter.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.0.1",
-    "tape": "^4.11.0"
+    "eslint": "^6.8.0",
+    "tape": "^4.13.0"
   },
   "files": [
     "logger-emitter.js"
   ],
   "scripts": {
-    "test": "tape test/*.js",
-    "lint": "eslint ."
+    "test": "eslint . && tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,6 @@
     "emitter",
     "console"
   ],
-  "author": "jurgen leschner",
+  "author": "Jürgen Leschner",
   "license": "MIT"
 }

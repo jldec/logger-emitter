@@ -1,6 +1,5 @@
 # logger-emitter
-[![Azure Build Status](https://dev.azure.com/jldec/logger-emitter/_apis/build/status/jldec.logger-emitter?branchName=master)](https://dev.azure.com/jldec/logger-emitter/_build/latest?definitionId=1&branchName=master)
-[![Build Status](https://api.travis-ci.org/jldec/logger-emitter.svg?branch=master)](https://travis-ci.org/jldec/logger-emitter)
+![CI](https://github.com/jldec/logger-emitter/workflows/CI/badge.svg)
 
 Minimal api for logging to console and/or eventEmitter
 
@@ -39,4 +38,4 @@ log.logger.on('error', errHandler);
 - if you don't listen for `errors`, eventEmitter will throw on 'error'
 
 #### license
-(c) 2015-2019 Jürgen Leschner, [MIT](https://opensource.org/licenses/MIT) license
+(c) 2015-2020 Jürgen Leschner, [MIT](https://opensource.org/licenses/MIT) license
