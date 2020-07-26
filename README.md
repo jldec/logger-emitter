@@ -1,5 +1,5 @@
 # logger-emitter
-![CI](https://github.com/jldec/logger-emitter/workflows/CI/badge.svg)
+[![CI](https://github.com/jldec/logger-emitter/workflows/CI/badge.svg)](https://github.com/jldec/logger-emitter/actions)
 
 Minimal api for logging to console and/or eventEmitter
 
