@@ -5,7 +5,7 @@
   "main": "logger-emitter.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^7.13.0",
     "tape": "^5.0.1"
   },
   "files": [
