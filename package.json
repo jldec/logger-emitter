@@ -1,12 +1,12 @@
 {
   "name": "logger-emitter",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Minimal api for logging to console and/or eventEmitter.",
   "main": "logger-emitter.js",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.13.0",
-    "tape": "^5.0.1"
+    "eslint": "^8.7.0",
+    "tape": "^5.4.1"
   },
   "files": [
     "logger-emitter.js"
