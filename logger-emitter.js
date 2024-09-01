@@ -11,7 +11,7 @@
  * opts.noConsole - no auto-log to console
  * opts.noErrors  - no 'error' events which throw if unhandled, just 'log' events
  *
- * Copyright (c) 2015-2022 Jürgen Leschner - github.com/jldec - MIT license
+ * Copyright (c) 2015-2024 Jürgen Leschner - github.com/jldec - MIT license
  *
 **/
 
